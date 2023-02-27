@@ -1,0 +1,255 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CICWebApi</name>
+    </assembly>
+    <members>
+        <member name="M:CICWebApi.Controllers.CategoryController.GetAll">
+            <summary>
+            Get All Categories
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:CICWebApi.Controllers.CategoryController.Get(System.Int32)">
+            <summary>
+            Get Category By Id
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:CICWebApi.Controllers.CategoryController.GetRequestsByCategory(System.Int32)">
+            <summary>
+            Get All Requests By CategoryId
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:CICWebApi.Controllers.CategoryController.Createcategory(CICWebApi.DTOs.CategoryDTO)">
+            <summary>
+            Create Category
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:CICWebApi.Controllers.CategoryController.UpdateCategory(System.Int32,CICWebApi.DTOs.CategoryDTO)">
+            <summary>
+            Update Category By Id
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:CICWebApi.Controllers.CategoryController.Deletecategory(System.Int32)">
+            <summary>
+            Delete Category By Id
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:CICWebApi.Controllers.DepartmentController.GetAll">
+            <summary>
+            Get All Departments
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:CICWebApi.Controllers.DepartmentController.Get(System.Int32)">
+            <summary>
+            Get Department By Id
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:CICWebApi.Controllers.DepartmentController.GetUsersBydepartment(System.Int32)">
+            <summary>
+            Get All Users By departmentId
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:CICWebApi.Controllers.DepartmentController.CreateDepartment(CICWebApi.DTOs.DepartmentDTO)">
+            <summary>
+            Create Department
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:CICWebApi.Controllers.DepartmentController.UpdateDepartment(System.Int32,CICWebApi.DTOs.DepartmentDTO)">
+            <summary>
+            Update department By Id
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:CICWebApi.Controllers.DepartmentController.Deletedepartment(System.Int32)">
+            <summary>
+            Delete Department By Id
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:CICWebApi.Controllers.PriorityController.GetAll">
+            <summary>
+            Get All Priorities
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:CICWebApi.Controllers.PriorityController.Get(System.Int32)">
+            <summary>
+            Get Priority By Id
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:CICWebApi.Controllers.PriorityController.GetRequestsByPriority(System.Int32)">
+            <summary>
+            Get All Requests By PriorityId
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:CICWebApi.Controllers.PriorityController.CreatePriority(CICWebApi.DTOs.PriorityDTO)">
+            <summary>
+            Create Priority
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:CICWebApi.Controllers.PriorityController.UpdatePriority(System.Int32,CICWebApi.DTOs.PriorityDTO)">
+            <summary>
+            Update Priority By Id
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:CICWebApi.Controllers.PriorityController.DeletePriority(System.Int32)">
+            <summary>
+            Delete Priority By Id
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:CICWebApi.Controllers.RequestController.GetRequests">
+            <summary>
+            Get All Requests
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:CICWebApi.Controllers.RequestController.GetRequest(System.Int32)">
+            <summary>
+            Get Request by Id
+            </summary>
+            <param name="requestId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CICWebApi.Controllers.RequestController.CreateRequest(System.Int32,System.Int32,System.Int32,System.Int32,CICWebApi.DTOs.RequestDTO)">
+            <summary>
+            Create Request
+            </summary>
+            <param name="requestTypeId"></param>
+            <param name="categoryId"></param>
+            <param name="priorityId"></param>
+            <param name="requestStatusId"></param>
+            <param name="RequestCreate"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CICWebApi.Controllers.RequestController.UpdateRequest(System.Int32,CICWebApi.DTOs.RequestDTO)">
+            <summary>
+            Update Request by ID
+            </summary>
+            <param name="requestId"></param>
+            <param name="updatedRequest"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CICWebApi.Controllers.RequestController.DeleteRequest(System.Int32)">
+            <summary>
+            Delete Request By Id
+            </summary>
+            <param name="requestId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CICWebApi.Controllers.RequestController.DeleteRequestsByCategory(System.Int32)">
+            <summary>
+            Delete All Request By Their Category
+            </summary>
+            <param name="categoryId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CICWebApi.Controllers.RequestController.DeleteRequestsByPriority(System.Int32)">
+            <summary>
+            Delete All Request By Their Priority
+            </summary>
+            <param name="priorityId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CICWebApi.Controllers.RequestController.DeleteRequestsByRequestStatus(System.Int32)">
+            <summary>
+            Delete All Request By Their Status
+            </summary>
+            <param name="requestStatusId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CICWebApi.Controllers.RequestController.DeleteRequestsByRequestType(System.Int32)">
+            <summary>
+            Delete All Request By Their Type
+            </summary>
+            <param name="requestTypeId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CICWebApi.Controllers.RequestStatusController.GetAll">
+            <summary>
+            Get All RequestStatuses
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:CICWebApi.Controllers.RequestStatusController.Get(System.Int32)">
+            <summary>
+            Get RequestStatus By Id
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:CICWebApi.Controllers.RequestStatusController.GetRequestsByRequestStatus(System.Int32)">
+            <summary>
+            Get All Requests By RequestStatusId
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:CICWebApi.Controllers.RequestStatusController.CreateRequestStatus(CICWebApi.DTOs.RequestStatusDTO)">
+            <summary>
+            Create RequestStatus
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:CICWebApi.Controllers.RequestStatusController.UpdateRequestStatus(System.Int32,CICWebApi.DTOs.RequestStatusDTO)">
+            <summary>
+            Update RequestStatus By Id
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:CICWebApi.Controllers.RequestStatusController.DeleteRequestStatus(System.Int32)">
+            <summary>
+            Delete RequestStatus By Id
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:CICWebApi.Controllers.RequestTypeController.GetAll">
+            <summary>
+            Get All RequestTypes
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:CICWebApi.Controllers.RequestTypeController.Get(System.Int32)">
+            <summary>
+            Get RequestType By Id
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:CICWebApi.Controllers.RequestTypeController.GetRequestsByRequestType(System.Int32)">
+            <summary>
+            Get All Requests By RequestTypeId
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:CICWebApi.Controllers.RequestTypeController.CreateRequestType(CICWebApi.DTOs.RequestTypeDTO)">
+            <summary>
+            Create RequestType
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:CICWebApi.Controllers.RequestTypeController.UpdateRequestType(System.Int32,CICWebApi.DTOs.RequestTypeDTO)">
+            <summary>
+            Update RequestType By Id
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:CICWebApi.Controllers.RequestTypeController.DeleteRequestType(System.Int32)">
+            <summary>
+            Delete RequestType By Id
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

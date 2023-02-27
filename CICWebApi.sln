@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33103.184
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CICWebApi", "CICWebApi\CICWebApi.csproj", "{3784852B-0E9C-4C81-85D6-B6D6650EECB4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess", "DataAccess\DataAccess.csproj", "{A6047C0B-2634-4084-8F23-450A639977F6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data", "Core\Data.csproj", "{16685A8F-2CC4-41F6-8FCE-08C66FC3511A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3784852B-0E9C-4C81-85D6-B6D6650EECB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3784852B-0E9C-4C81-85D6-B6D6650EECB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3784852B-0E9C-4C81-85D6-B6D6650EECB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3784852B-0E9C-4C81-85D6-B6D6650EECB4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6047C0B-2634-4084-8F23-450A639977F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6047C0B-2634-4084-8F23-450A639977F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6047C0B-2634-4084-8F23-450A639977F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6047C0B-2634-4084-8F23-450A639977F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16685A8F-2CC4-41F6-8FCE-08C66FC3511A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16685A8F-2CC4-41F6-8FCE-08C66FC3511A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16685A8F-2CC4-41F6-8FCE-08C66FC3511A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16685A8F-2CC4-41F6-8FCE-08C66FC3511A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {85B43219-E83B-464B-A0FC-A8DAA47F35F5}
+	EndGlobalSection
+EndGlobal
